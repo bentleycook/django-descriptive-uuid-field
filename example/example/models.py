@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from django.db import models
 
-from descriptive_id.fields import DescriptiveIDField
+from descriptive_uuid_field.fields import DescriptiveUUIDField
 
 
 class MyModel(models.Model):
-    number = DescriptiveIDField(prefix='mdl')
+    number = DescriptiveUUIDField(prefix='human_')

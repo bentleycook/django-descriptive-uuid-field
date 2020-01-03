@@ -6,12 +6,12 @@ import os
 import sys
 from setuptools import setup
 
-name = 'descriptive_id'
-package = 'descriptive_id'
-description = 'django-descriptive-id is a field that you can use on your models to give them a human-readable, unique identifier.'
-url = 'https://github.com/bellhops/django-descriptive-id'
-author = 'Bellhops'
-author_email = 'tech@getbellhops.com'
+name = 'django_descriptive_uuid_field'
+package = 'descriptive_uuid_field'
+description = 'django-descriptive-uuid is a field that you can use on your models to give them a human-readable, unique identifier.'
+url = 'https://github.com/bentleycook/django-descriptive-uuid-field'
+author = 'Bentley Cook'
+author_email = 'hello@bentleycook.com'
 license = 'MIT'
 
 def get_version(package):
@@ -71,7 +71,7 @@ setup(
     packages=get_packages(package),
     package_data=get_package_data(package),
     install_requires=[],
-    download_url='https://github.com/bellhops/django-descriptive-id/tarball/0.1',
+    download_url='https://github.com/bentleycook/django-descriptive-uuid/tarball/0.1',
     keywords=['django', 'modelfield', 'uuid'],
     classifiers=[],
 )

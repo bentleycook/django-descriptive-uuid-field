@@ -38,7 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_extensions',
-    'descriptive_id',
+    'descriptive_uuid_field',
     'example'
 )
 
